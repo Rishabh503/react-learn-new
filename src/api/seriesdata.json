@@ -1,0 +1,48 @@
+
+[
+  {
+    "name": "Virat Kohli",
+    "id": 1,
+    "img_url":"http://localhost:5173/images/virat.png",
+    "runs": 25425,
+    "about": "Former Indian captain, one of the greatest batsmen of all time. Dominant force in international cricket. Holds numerous records.",
+    "role": "Batsman",
+    "ipl_team": "RCB"
+  },
+  {
+    "name": "Rohit Sharma",
+    "id": 2,
+    "img_url":"http://localhost:5173/images/rohit.png",
+    "runs": 26498,
+    "about": "Indian captain, known for his explosive batting style. Holds the record for the highest individual score in ODIs. Five-time IPL champion.",
+    "role": "Batsman",
+    "ipl_team": "MI"
+  },
+  {
+    "name": "Hardik Pandya",
+    "id": 3,
+    "img_url":"http://localhost:5173/images/hardik.png",
+    "runs": 5558,
+    "about": "All-rounder, known for his aggressive batting and tight bowling. Led Gujarat Titans to IPL victory in 2022. Key player for India.",
+    "role": "All-rounder",
+    "ipl_team": "GT"
+  },
+  {
+    "name": "Ravindra Jadeja",
+    "id": 4,
+    "img_url":"http://localhost:5173/images/jadeja.png",
+    "runs": 6637,
+    "about": "All-rounder, known for his left-arm spin bowling and lower-order batting. One of the best fielders in the world. Key player for India.",
+    "role": "All-rounder",
+    "ipl_team": "CSK"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "id": 5,
+    "img_url":"http://localhost:5173/images/bumrah.png",
+    "runs": 68,
+    "about": "Right-arm fast bowler, known for his unique action and ability to bowl yorkers. One of the best T20 bowlers in the world. Key player for India.",
+    "role": "Bowler",
+    "ipl_team": "MI"
+  }
+]
