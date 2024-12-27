@@ -1,7 +1,10 @@
 // import React from 'react';
-import Netflix from "./components/netflix";
-import Header,{NetflixSeries,Footer} from "./components/netflixseries";
 import { CricketCards } from "./components/cricketers";
+import Netflix from "./components/netflix";
+import Header, { Footer, NetflixSeries } from "./components/netflixseries";
+
+//importing css
+import "./components/Criccards.css";
 export const App=()=>{
   // return [<NetflixSeries key="1"/>,<NetflixSeries key="2"/>];  syntax for fragment by indexing
   // <div>
@@ -14,15 +17,14 @@ export const App=()=>{
                  <Footer/>
         </>
  );
-
-//  just use <> </> for fragments
 };
 
 //this is how we create a component its created with pascal case ie first letter up
 
 export const Cards=()=>{
   return (
-    <div>
+    <div className="container">
+      <h1 className="card-property">Cricketers Cards</h1>
       <CricketCards/>
     </div>
   );
