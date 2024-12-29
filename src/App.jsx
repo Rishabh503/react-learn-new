@@ -3,7 +3,9 @@ import { CricketCards } from "./components/cricketers";
 import Netflix from "./components/netflix";
 import Header, { Footer, NetflixSeries } from "./components/netflixseries";
 import {EventHandling} from "./components/EventHandling"
-import {EventProps} from "./components/EventProps"
+import {EventProps} from "./components/EventProps" 
+import {State} from "./components/hooks/State"
+import { DerivedState } from "./components/hooks/PracticeProb";
 
 //importing css
 
@@ -36,11 +38,20 @@ export const Events=()=>{
   return (
   <div>
     {/* <EventHandling/> */}
-    <EventProps/>
+    {/* <EventProps/> */}
   </div>
   );
 };
 
+export const Hooks=()=>{
+  return (
+<>
+
+    <State/>
+    <DerivedState/>
+</>
+  );
+}
 
 
 
