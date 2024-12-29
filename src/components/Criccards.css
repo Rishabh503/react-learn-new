@@ -40,3 +40,6 @@ img{
     padding: 10px 20px; Padding inside the button
     /* border: none;  */
 /* } */
+.changes{
+    background-color: red;
+}
