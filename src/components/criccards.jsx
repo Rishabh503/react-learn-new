@@ -15,7 +15,8 @@ export const Cards=(props)=>{
     const ratings=runs>10000?"super_hit":"average";
     return (<li className="card">
         <div>
-            <img src={img_url}
+            <img 
+            src={img_url}
                 alt="image.png"
                 width="70%"
                 height="30%" />
