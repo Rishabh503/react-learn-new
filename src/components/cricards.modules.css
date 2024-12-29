@@ -1,0 +1,45 @@
+.card-property{
+    margin:3rem;
+
+}
+.card{
+
+    border:2px solid black;
+    border-radius: 2%;
+    box-shadow:rgba(0,0,0,0.05) 0px 6px 24px 0px,rgba(0,0,0,0.8) 0px 0px 0px 1px   ;
+}
+.card-container{
+    margin:2rem;
+    padding: 2px;
+        display: flex;
+        flex-direction: column;
+        gap:1.2rem;
+
+}
+img{
+    width:95%;
+    border-radius: 2px2+;
+    margin:2px;
+}
+.runs{
+    margin:5%;
+    border-radius: 5px;
+    border:solid black 2px;
+    background-color:red ;
+}
+
+.super_hit{
+    background-color: rgb(63, 181, 63);
+}
+.average{
+    background-color: rgb(226, 204, 38);
+}
+/* button{ */
+    background-color: #4CAF50; Green background
+    color: white; White text
+    padding: 10px 20px; Padding inside the button
+    /* border: none;  */
+/* } */
+.changes{
+    background-color: red;
+}

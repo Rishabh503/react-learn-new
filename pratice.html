@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="../pratice.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Inline events </h1>
+    <button onclick="alert('welcome')">gretting single click</button>
+    <button ondblclick="alert('welcome again')" > greetings agaain</button>
+    <button onmousemove="alert('from mouse')"> greetings mouse</button>
+
+    <h1> DOM eevent handler </h1>
+    <button id="mybtn1">s_click</button>
+    <button id="mybtn2">d_click</button>
+    <button id="mybtn3">mouseover_click</button>
+    
+    <h1> addEventLisnter Event handler </h1>
+    <button id="mybtn4">s_click</button>
+    <!-- <button id="mybtn5">d_click</button> -->
+    <button id="mybtn6">mouseover_click</button>
+    
+    <h1> now using other evet handling prop</h1>
+
+    <button id="mybtn7">conformation of give me name </button>
+    <button id="mybtn8">give the name here </button>
+
+    <h1> using 3 prompts together alert prompt confirm</h1>
+    <button id="btn">name</button>
+</body>
+<script>
+    <!-- getting first element and workigng -->
+    document.getElementById('mybtn1').onclick=()=>{
+        alert('welcome to single clck');
+    }
+    document.getElementById('mybtn2').ondblclick=()=>{
+        alert('welcome to double clck');
+    }
+    document.getElementById('mybtn3').onmouseover=()=>{
+        alert('welcome to mouse over ');
+    }
+    
+    document.getElementById('mybtn4').addEventListener('click',()=>{
+        alert('welcome to single clck');
+    })
+    document.getElementById('mybtn6').addEventListener('mouseover',()=>{
+        alert('welcome to mouse o');
+    })
+
+    document.getElementById('mybtn7').addEventListener('click',()=>{
+        confirm("this is your name");
+    })
+    document.getElementById('mybtn8').addEventListener('click',()=>{
+        let name =prompt("give me your name");
+        alert("hello  "+name);
+    })
+
+    document.getElementById('btn').addEventListener('click',()=>{
+        let name=prompt("give me name ");
+        let confirmation=confirm("this is your name : "+name);
+        if(confirmation){
+            alert("hello "+name);
+        }else{
+            alert("not founf");
+        }
+    })
+
+
+    
+    
+</script>
+</html>

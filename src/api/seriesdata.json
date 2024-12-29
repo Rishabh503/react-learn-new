@@ -1,126 +1,134 @@
-
 [
   {
     "name": "Virat Kohli",
     "id": 1,
-    "img_url":"http://localhost:5173/images/virat.png",
+    "img_url": "http://localhost:5173/images/virat.png",
     "runs": 25425,
     "about": "Former Indian captain, one of the greatest batsmen of all time. Dominant force in international cricket. Holds numerous records.",
     "role": "Batsman",
     "ipl_team": "RCB",
-    "profile":"https://www.cricbuzz.com/profiles/1413/virat-kohli"
+    "profile": "https://www.cricbuzz.com/profiles/1413/virat-kohli",
+    "best_performance_video": "https://youtu.be/_CFS5uZCcTw?si=dm2hUDg4bsgzYM8U"
   },
   {
     "name": "Rohit Sharma",
     "id": 2,
-    "img_url":"http://localhost:5173/images/rohit.png",
+    "img_url": "http://localhost:5173/images/rohit.png",
     "runs": 26498,
     "about": "Indian captain, known for his explosive batting style. Holds the record for the highest individual score in ODIs. Five-time IPL champion.",
     "role": "Batsman",
     "ipl_team": "MI",
-    "profile":"https://www.cricbuzz.com/profiles/576/rohit-sharma"
+    "profile": "https://www.cricbuzz.com/profiles/576/rohit-sharma",
+    "best_performance_video": "https://youtu.be/JnzgeLfEVbE?si=4mqnBG4hcKCYKirj"
   },
   {
     "name": "Hardik Pandya",
     "id": 3,
-    "img_url":"http://localhost:5173/images/hardik.png",
+    "img_url": "http://localhost:5173/images/hardik.png",
     "runs": 5558,
     "about": "All-rounder, known for his aggressive batting and tight bowling. Led Gujarat Titans to IPL victory in 2022. Key player for India.",
     "role": "All-rounder",
     "ipl_team": "GT",
-    "profile":"https://www.cricbuzz.com/profiles/9647/hardik-pandya"
+    "profile": "https://www.cricbuzz.com/profiles/9647/hardik-pandya",
+    "best_performance_video": "https://youtube.com/shorts/-t3M5S3zBvI?si=dVohp_xGkHcND8kf"
   },
   {
     "name": "Ravindra Jadeja",
     "id": 4,
-    "img_url":"http://localhost:5173/images/jadeja.png",
+    "img_url": "http://localhost:5173/images/jadeja.png",
     "runs": 6637,
     "about": "All-rounder, known for his left-arm spin bowling and lower-order batting. One of the best fielders in the world. Key player for India.",
     "role": "All-rounder",
     "ipl_team": "CSK",
-    "profile":"https://www.cricbuzz.com/profiles/587/ravindra-jadeja"
+    "profile": "https://www.cricbuzz.com/profiles/587/ravindra-jadeja",
+    "best_performance_video": "https://www.youtube.com/watch?v=beQczA5o8hE"
   },
   {
     "name": "Jasprit Bumrah",
     "id": 5,
-    "img_url":"http://localhost:5173/images/bumrah.png",
+    "img_url": "http://localhost:5173/images/bumrah.png",
     "runs": 68,
     "about": "Right-arm fast bowler, known for his unique action and ability to bowl yorkers. One of the best T20 bowlers in the world. Key player for India.",
     "role": "Bowler",
     "ipl_team": "MI",
-    "profile":"https://www.cricbuzz.com/profiles/9311/jasprit-bumrah"
+    "profile": "https://www.cricbuzz.com/profiles/9311/jasprit-bumrah",
+    "best_performance_video": "https://www.youtube.com/watch?v=UbjpWV2ZOH0"
   },
   {
     "name": "Rishabh Pant",
     "id": 6,
-    "img_url":"http://localhost:5173/images/rishabh.png",
+    "img_url": "http://localhost:5173/images/rishabh.png",
     "runs": 3312,
     "about": "Wicketkeeper-batsman, known for his aggressive batting style. Led Delhi Capitals to IPL victory in 2022. Key player for India.",
     "role": "Wicketkeeper",
     "ipl_team": "LSG",
-     "profile":"https://cricbuzz.com/profiles/10744/rishabh-pant"
+    "profile": "https://cricbuzz.com/profiles/10744/rishabh-pant",
+    "best_performance_video": "https://www.youtube.com/watch?v=ZTn6_OQk_6k"
   },
-  
-    {
-      "name": "Shubman Gill",
-      "id": 9,
-      "img_url": "http://localhost:5173/images/gill.png",
-      "runs": 1900,
-      "about": "Elegant right-handed batsman known for his classy stroke play and solid technique. Rising star in Indian cricket.",
-      "role": "Batsman",
-      "ipl_team": "GT",
-      "profile": "https://www.cricbuzz.com/profiles/13394/shubman-gill"
-    },
-    {
-      "name": "Yuzvendra Chahal",
-      "id": 10,
-      "img_url": "http://localhost:5173/images/chahal.png",
-      "runs": 27,
-      "about": "Leg-spinner renowned for his clever variations and ability to take wickets in the middle overs.",
-      "role": "Bowler",
-      "ipl_team": "RR",
-      "profile": "https://www.cricbuzz.com/profiles/9559/yuzvendra-chahal"
-    },
-    {
-      "name": "KL Rahul",
-      "id": 11,
-      "img_url": "http://localhost:5173/images/rahul.png",
-      "runs": 3889,
-      "about": "Stylish right-handed batsman and occasional wicketkeeper. Known for his consistency at the top of the order.",
-      "role": "Batsman",
-      "ipl_team": "LSG",
-      "profile": "https://www.cricbuzz.com/profiles/8943/kl-rahul"
-    },
-    {
-      "name": "Mohammed Shami",
-      "id": 12,
-      "img_url": "http://localhost:5173/images/shami.png",
-      "runs": 78,
-      "about": "Right-arm fast bowler, known for his ability to swing the ball both ways and deliver in crunch situations.",
-      "role": "Bowler",
-      "ipl_team": "GT",
-      "profile": "https://www.cricbuzz.com/profiles/9404/mohammed-shami"
-    },
-    {
-      "name": "Surya Kumar Yadav",
-      "id": 13,
-      "img_url": "http://localhost:5173/images/surya.png",
-      "runs": 2644,
-      "about": "Dynamic right-handed batsman, known for his innovative stroke play and ability to accelerate the innings.",
-      "role": "Batsman",
-      "ipl_team": "MI",
-      "profile": "https://www.cricbuzz.com/profiles/10803/suryakumar-yadav"
-    },
-    {
-      "name": "Ravichandran Ashwin",
-      "id": 14,
-      "img_url": "http://localhost:5173/images/ashwin.png",
-      "runs": 647,
-      "about": "Off-spinner and handy lower-order batsman. Renowned for his cricketing intelligence and versatility in all formats.",
-      "role": "All-rounder",
-      "ipl_team": "RR",
-      "profile": "https://www.cricbuzz.com/profiles/265/ravichandranashwin"
-    }
-  
-  
-  ]
+  {
+    "name": "Shubman Gill",
+    "id": 9,
+    "img_url": "http://localhost:5173/images/gill.png",
+    "runs": 1900,
+    "about": "Elegant right-handed batsman known for his classy stroke play and solid technique. Rising star in Indian cricket.",
+    "role": "Batsman",
+    "ipl_team": "GT",
+    "profile": "https://www.cricbuzz.com/profiles/13394/shubman-gill",
+    "best_performance_video": "https://www.youtube.com/watch?v=wD6_bT4_DTI"
+  },
+  {
+    "name": "Yuzvendra Chahal",
+    "id": 10,
+    "img_url": "http://localhost:5173/images/chahal.png",
+    "runs": 27,
+    "about": "Leg-spinner renowned for his clever variations and ability to take wickets in the middle overs.",
+    "role": "Bowler",
+    "ipl_team": "RR",
+    "profile": "https://www.cricbuzz.com/profiles/9559/yuzvendra-chahal",
+    "best_performance_video": "https://www.youtube.com/watch?v=wGS8acGngt8"
+  },
+  {
+    "name": "KL Rahul",
+    "id": 11,
+    "img_url": "http://localhost:5173/images/rahul.png",
+    "runs": 3889,
+    "about": "Stylish right-handed batsman and occasional wicketkeeper. Known for his consistency at the top of the order.",
+    "role": "Batsman",
+    "ipl_team": "LSG",
+    "profile": "https://www.cricbuzz.com/profiles/8943/kl-rahul",
+    "best_performance_video": "https://www.youtube.com/watch?v=7B5YcABuMKM"
+  },
+  {
+    "name": "Mohammed Shami",
+    "id": 12,
+    "img_url": "http://localhost:5173/images/shami.png",
+    "runs": 78,
+    "about": "Right-arm fast bowler, known for his ability to swing the ball both ways and deliver in crunch situations.",
+    "role": "Bowler",
+    "ipl_team": "GT",
+    "profile": "https://www.cricbuzz.com/profiles/9404/mohammed-shami",
+    "best_performance_video": "https://youtu.be/JnzgeLfEVbE?si=4mqnBG4hcKCYKirj"
+  },
+  {
+    "name": "Surya Kumar Yadav",
+    "id": 13,
+    "img_url": "http://localhost:5173/images/surya.png",
+    "runs": 2644,
+    "about": "Dynamic right-handed batsman, known for his innovative stroke play and ability to accelerate the innings.",
+    "role": "Batsman",
+    "ipl_team": "MI",
+    "profile": "https://www.cricbuzz.com/profiles/10803/suryakumar-yadav",
+    "best_performance_video": "https://www.youtube.com/watch?v=hg6L__FfWmM"
+  },
+  {
+    "name": "Ravichandran Ashwin",
+    "id": 14,
+    "img_url": "http://localhost:5173/images/ashwin.png",
+    "runs": 647,
+    "about": "Off-spinner and handy lower-order batsman. Renowned for his cricketing intelligence and versatility in all formats.",
+    "role": "All-rounder",
+    "ipl_team": "RR",
+    "profile": "https://www.cricbuzz.com/profiles/265/ravichandranashwin",
+    "best_performance_video": "https://www.youtube.com/watch?v=nRmuMQFzZHE"
+  }
+]

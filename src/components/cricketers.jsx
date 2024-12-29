@@ -1,5 +1,6 @@
 import seriesdata from "../api/seriesdata";
 import { Cards } from "./criccards";
+
 export const CricketCards=()=>{
 return(
     <>
