@@ -1,4 +1,4 @@
-/* Basic Button Styling */
+Basic Button Styling */
 button {
     padding:5px;
     margin:auto;
@@ -15,4 +15,4 @@ button {
     transition: background-color 0.3s; /* Smooth transition on hover */
   }
   
-  /* Hover Effect */
+  /* Hover Effect

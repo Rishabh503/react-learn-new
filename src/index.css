@@ -59,7 +59,7 @@ a{
 }
 .grid-two-cols {
   grid-template-columns: repeat(2, 1fr);
-}
+
 .grid-three--cols {
   grid-template-columns: repeat(3, 1fr);
 }
