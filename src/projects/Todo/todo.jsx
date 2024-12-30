@@ -1,19 +1,19 @@
 import { useState } from "react";
 import { MdCheck, MdDeleteForever } from "react-icons/md";
 import "./todo.css";
+import { TodoForm } from "./TodoForm";
 export const Todo=()=>{   
-    const [inputValue,setInputValue]=useState("");
+  
     const [task,setTask]=useState([]);
-    const handleInputChange=(value)=>{
-        setInputValue(value);
-    }
-    const handleFormSubmit=(event)=>{
-        event.preventDefault();
+   
+   
+   
+    const handleFormSubmit=(inputValue)=>{
 
         if(!inputValue ) return;// validation of empty input
 
         if(task.includes(inputValue)) {
-            setInputValue("");  
+         
             return; // validation of duplicate
         }
         setTask((prevTask)=>[...prevTask,inputValue]);
@@ -39,26 +39,7 @@ export const Todo=()=>{
             <header> 
                 <h1> Todo App</h1>
             </header>
-            <section className="form">
-                <form onSubmit={handleFormSubmit}>
-                    <div>
-                        <input 
-                        type="text" 
-                        className="todo-input" 
-                        autoComplete="off"
-                        value={inputValue}
-                        onChange={
-                            (event)=>handleInputChange(event.target.value)
-                        }
-                        />
-                    </div>
-                    <div>
-                        <button type="submit" className="todo-btn">
-                            Add task
-                        </button>
-                    </div>
-                </form>
-            </section>
+            <TodoForm onAddTodo={handleFormSubmit}/>
             <section className="myUnOrdList">
                 <ul>
                     {
