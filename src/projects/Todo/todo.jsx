@@ -1,10 +1,7 @@
 import { useState } from "react";
-import "./todo.css"
-import { MdCheck ,MdDeleteForever } from "react-icons/md";
-export const Todo=()=>{
-
-    
-
+import { MdCheck, MdDeleteForever } from "react-icons/md";
+import "./todo.css";
+export const Todo=()=>{   
     const [inputValue,setInputValue]=useState("");
     const [task,setTask]=useState([]);
     const handleInputChange=(value)=>{
@@ -21,11 +18,22 @@ export const Todo=()=>{
         }
         setTask((prevTask)=>[...prevTask,inputValue]);
 
-        console.log(task); // working
+        // console.log(task); // working
 
         setInputValue("");  // setting back the input field null
 
     };
+
+    const handleDeleteTodo=(curTodo)=>{
+            // console.log(curTodo);
+            const updateTask=task.filter((todo)=> todo!==curTodo);
+            setTask(updateTask);
+    };
+
+     const handleClearAll=()=>{
+            // console.log(task);
+            setTask([]);
+     };
     return (
         <section className="todo-container">
             <header> 
@@ -61,7 +69,9 @@ export const Todo=()=>{
                                 <button className="check-btn">
                                     <MdCheck/>
                                 </button>
-                                <button className="delete-btn"> 
+                                <button className="delete-btn"
+                                onClick={()=>handleDeleteTodo(todo)}
+                                > 
                                     <MdDeleteForever/>
                                 </button>
                             </li>
@@ -69,6 +79,11 @@ export const Todo=()=>{
                         })
                     }
                 </ul>
+            </section>
+            <section>
+                <button className="clear-btn" onClick={handleClearAll}>
+                    Clear All
+                </button>
             </section>
 
         </section>
