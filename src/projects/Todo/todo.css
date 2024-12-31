@@ -6,6 +6,7 @@
   justify-content: center;
 } */
 
+
 .todo-container {
     align-items: center;
     display: flex;
@@ -68,7 +69,7 @@
     max-width: 500px;
     transition: background-color 200ms ease-in-out;
     width: 100%;
-    background-color: #f2f3f4;
+    background-color: rgb(213, 20, 139);
     color: black;
   }
   
@@ -195,5 +196,16 @@
   .clear-btn:hover {
     background-color: #8d1407;
   }
+
+  .expenseBox{
+    border:2px solid black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin:2rem;
+  }
+  /* .exepense-form{ */
+    /* color:red; */
+  /* } */
   todocss.txt
   Displaying todocss.txt.

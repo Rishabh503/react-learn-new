@@ -6,6 +6,8 @@ import {EventHandling} from "./components/EventHandling"
 import {EventProps} from "./components/EventProps" 
 import {State} from "./components/hooks/State"
 import { DerivedState } from "./components/hooks/PracticeProb";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 //importing css
 
