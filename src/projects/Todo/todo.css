@@ -134,7 +134,7 @@
     transition: background-color 200ms ease-in-out;
     background-color: #f2f3f4;
     min-width: 35rem;
-    max-width: 40rem;
+    max-width: 50rem;
     padding: 1.6rem 3rem;
     display: grid;
     grid-template-columns: 1fr 0.3fr 0.3fr;
@@ -142,11 +142,11 @@
     gap: 1.6rem;
     /*align-items: center;
       */ /*wrapsthelinks*/
-    overflow-wrap: anywhere;
+    /* overflow-wrap: ; */
   }
   
   li span {
-    max-width: 20rem;
+    max-width:10rem;
     color: #2a6931;
   }
   
