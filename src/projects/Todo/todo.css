@@ -63,10 +63,7 @@
     letter-spacing: 0.1rem;
     border: none;
     outline: none;
-    /* border-radius: 15; */
-    border-top-left-radius: 17px;
-    border-bottom-left-radius: 17px;
-    max-width: 500px;
+    border-radius: 15px;
     transition: background-color 200ms ease-in-out;
     width: 100%;
     background-color: rgb(213, 20, 139);
@@ -96,10 +93,10 @@
   }
   
   form button {
-    padding: 10.8px;
+    margin:auto;
+    padding: 10px;
     font-size: 17px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 17px;
     min-width: 100px;
     background-color: #5dade2;
     color: var(--secondary-color);
@@ -137,7 +134,7 @@
     max-width: 50rem;
     padding: 1.6rem 3rem;
     display: grid;
-    grid-template-columns: 1fr 0.3fr 0.3fr;
+    grid-template-columns: 1fr 0.3fr 0.3fr ;
     justify-content: start;
     gap: 1.6rem;
     /*align-items: center;
@@ -196,6 +193,18 @@
   .clear-btn:hover {
     background-color: #8d1407;
   }
+  .click-me-btn {
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
 
   .expenseBox{
     border:2px solid black;
