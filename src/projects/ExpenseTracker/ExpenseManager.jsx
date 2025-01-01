@@ -46,7 +46,7 @@ export const Expense=()=>{
       
     return (
         <section className="todo-container">
-            <h1> expense tracker</h1>
+            <h1> EXPENSE TRACKER</h1>
             <section>
                 <form onSubmit={handleFormSubmit} >
                     <div>
@@ -76,9 +76,10 @@ export const Expense=()=>{
             </section>
             <section>
                <ul>
+                {/* <li className="todo-item"> <p>{expenses.length?"Amount  Description    category":"welcome to expense tracker"} </p></li> */}
                 {expenses.map((expense,index)=>(
                     <li key={index}  className="todo-item"> 
-                        <p>{expense.description}--{expense.amount}</p>
+                        <p>{expense.amount}--{expense.description} </p>
                         {expense.category}
                         <button onClick={()=>handleDelete(expense)}>
                                 <MdDeleteForever className="delete-btn"/>
