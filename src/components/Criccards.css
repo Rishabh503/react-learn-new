@@ -34,12 +34,12 @@ img{
 .average{
     background-color: rgb(226, 204, 38);
 }
-/* button{ */
-    background-color: #4CAF50; Green background
-    color: white; White text
-    padding: 10px 20px; Padding inside the button
+button{
+    /* background-color: green; Green background */
+    /* color: white; White text */
+    /* padding: 10px 20px; Padding inside the button */
     /* border: none;  */
 /* } */
 .changes{
     background-color: red;
-} */
+} 
