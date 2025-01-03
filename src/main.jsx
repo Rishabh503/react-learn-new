@@ -10,6 +10,7 @@ import { Login } from './projects/PraticeProjects/Login.jsx';
 import { ReactUseEffect } from './components/hooks/useEffect/index.jsx';
 import { Challenge } from './components/hooks/useEffect/useEffectChallange.jsx';
 import { HowNot } from './components/hooks/useEffect/hownotofetchapi.jsx';
+import {UseRef} from './components/hooks/useRed/useRef.jsx'
 // import bootstrap from 'bootstrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -29,7 +30,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Login/> */}
     {/* <ReactUseEffect/> */}
     {/* <Challenge/> */}
-    <HowNot/>
+    {/* <HowNot/> */}
+    <UseRef/>
 
   </StrictMode>
 )
